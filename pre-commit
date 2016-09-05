@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# install with ln -s "$PWD/pre-commit" "$(git rev-parse --show-toplevel)/.git/hooks/"
+set -euo pipefail
+
+# $@ glob
+git-staged-files() {
+  git diff --cached -C -C -z --name-only --diff-filter=ACMRTUXB "$@"
+}
+
+# $1 name
+map() { IFS= read -rd $'\0' "$@"; }
+
+exec < /dev/tty
+read -p 'lint? [y]es, [s]kip, [a]bort: ' input
+case "$input" in
+  Y|y|'') :;;
+  S|s) exit 0;;
+  *) exit 1;;
+esac
+
+err=0
+
+git diff --cached --check || ((++err))
+
+while map file; do
+  git show ":$file" |
+  npm run -s eslint:stdin "$file" &&
+  echo -e "\e[32m✓\e[00m $file" || {
+    ((++err))
+    echo -e "\e[31m✗\e[00m $file" >&2
+  }
+done < <(git-staged-files \*.js)
+exit $err
