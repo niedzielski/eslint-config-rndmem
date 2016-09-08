@@ -12,7 +12,9 @@
     "eslint:file": "eslint --cache --max-warnings 0",
     "eslint:stdin": "eslint --cache --max-warnings 0 --stdin --stdin-filename",
     "eslint-fix:file": "eslint --cache --fix",
-    "clean": "rm -rf node_modules"
+    "clean": "rm -rf node_modules",
+    "preversion": "npm run -s eslint",
+    "postversion": "git push origin master --follow-tags && npm publish"
   },
   "engines": {
     "node": "6.4.0"
