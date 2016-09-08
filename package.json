@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-rndmem",
+  "version": "0.0.0",
+  "description": "The rndmem ESLint configuration.",
+  "keywords": ["eslint", "config"],
+  "homepage": "https://github.com/rndmem/eslint-config-rndmem",
+  "repository": "github:rndmem/eslint-config-rndmem",
+  "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
+  "scripts": {
+    "update": "ncu -atu",
+    "eslint": "eslint --cache --max-warnings 0 .*.js *.js",
+    "eslint:file": "eslint --cache --max-warnings 0",
+    "eslint:stdin": "eslint --cache --max-warnings 0 --stdin --stdin-filename",
+    "eslint-fix:file": "eslint --cache --fix",
+    "clean": "rm -rf node_modules"
+  },
+  "engines": {
+    "node": "6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "3.4.0",
+    "eslint-plugin-jsdoc": "2.3.1",
+    "eslint-plugin-node": "2.0.0",
+    "eslint-plugin-promise": "2.0.1",
+    "npm-check-updates": "2.8.0"
+  },
+  "license": "GPL-3.0"
+}
