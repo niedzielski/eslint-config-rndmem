@@ -2,16 +2,13 @@
   "name": "eslint-config-rndmem",
   "version": "0.0.2",
   "description": "The rndmem ESLint configuration.",
-  "keywords": [
-    "eslint",
-    "config"
-  ],
+  "keywords": ["eslint", "config"],
   "homepage": "https://github.com/rndmem/eslint-config-rndmem",
   "repository": "github:rndmem/eslint-config-rndmem",
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
   "scripts": {
-    "eslint": "eslint --cache --max-warnings 0 .*.js *.js",
     "test": "npm run -s eslint",
+    "eslint": "eslint --cache --max-warnings 0 .*.js *.js",
     "update": "ncu -atu",
     "preversion": "npm run -s test",
     "postversion": "git push origin master --follow-tags && npm publish",
