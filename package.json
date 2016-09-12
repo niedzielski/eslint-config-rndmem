@@ -2,25 +2,20 @@
   "name": "eslint-config-rndmem",
   "version": "0.0.1",
   "description": "The rndmem ESLint configuration.",
-  "keywords": [
-    "eslint",
-    "config"
-  ],
+  "keywords": ["eslint", "config"],
   "homepage": "https://github.com/rndmem/eslint-config-rndmem",
   "repository": "github:rndmem/eslint-config-rndmem",
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
   "scripts": {
-    "update": "ncu -atu",
     "eslint": "eslint --cache --max-warnings 0 .*.js *.js",
-    "eslint:file": "eslint --cache --max-warnings 0",
-    "eslint:stdin": "eslint --cache --max-warnings 0 --stdin --stdin-filename",
-    "eslint-fix:file": "eslint --cache --fix",
-    "clean": "rm -rf node_modules",
-    "preversion": "npm run -s eslint",
-    "postversion": "git push origin master --follow-tags && npm publish"
+    "test": "npm run -s eslint",
+    "update": "ncu -atu",
+    "preversion": "npm run -s test",
+    "postversion": "git push origin master --follow-tags && npm publish",
+    "clean": "rm -rf node_modules"
   },
   "engines": {
-    "node": "6.4.0"
+    "node": "6.5.0"
   },
   "peerDependencies": {
     "eslint": "3.4.0",
@@ -33,7 +28,8 @@
     "eslint-plugin-jsdoc": "2.3.1",
     "eslint-plugin-node": "2.0.0",
     "eslint-plugin-promise": "2.0.1",
-    "npm-check-updates": "2.8.0"
+    "npm-check-updates": "2.8.0",
+    "pre-commit": "1.1.3"
   },
   "license": "GPL-3.0"
 }
