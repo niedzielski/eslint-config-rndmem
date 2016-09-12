@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-rndmem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The rndmem ESLint configuration.",
-  "keywords": ["eslint", "config"],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "homepage": "https://github.com/rndmem/eslint-config-rndmem",
   "repository": "github:rndmem/eslint-config-rndmem",
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
