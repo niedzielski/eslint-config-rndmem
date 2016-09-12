@@ -8,7 +8,7 @@
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
   "scripts": {
     "test": "npm run -s eslint",
-    "eslint": "eslint --cache --max-warnings 0 .*.js *.js",
+    "eslint": "eslint --cache --max-warnings 0 .*.js .",
     "update": "ncu -atu",
     "preversion": "npm run -s test",
     "postversion": "git push origin master --follow-tags && npm publish",
