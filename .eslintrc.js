@@ -40,6 +40,7 @@ module.exports = {
 
     // best practices
     'accessor-pairs': 1,
+    'class-methods-use-this': 1,
     complexity: [1, 8], // eslint-disable-line no-magic-numbers
     curly: [2, 'multi-line'],
     'default-case': 1,
