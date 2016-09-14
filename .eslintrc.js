@@ -103,7 +103,7 @@ module.exports = {
     'func-names': [1, 'never'],
     'func-style': [1, 'declaration'],
     'id-length': [1, {min: 1, max: 40}],
-    'id-match': [1, '^[a-z]+([A-Za-z]+)*'],
+    'id-match': 1,
     indent: [1, 2],
     'jsx-quotes': [1, 'prefer-single'],
     'key-spacing': 1,
