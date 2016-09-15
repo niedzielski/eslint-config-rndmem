@@ -14,7 +14,7 @@ module.exports = {
     es6: true,
     node: true
   },
-  plugins: ['jsdoc', 'node', 'promise'],
+  plugins: ['jsdoc', 'json', 'node', 'promise'],
   extends: 'eslint:all',
   rules: {
     // http://eslint.org/docs/rules/
