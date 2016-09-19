@@ -52,7 +52,7 @@ module.exports = {
     'no-div-regex': 0,
     'no-else-return': 1,
     'no-empty-function': 1,
-    'no-floating-decimal': 1,
+    'no-floating-decimal': 0,
     'no-lone-blocks': 1,
     'no-magic-numbers': [1, {ignore: [-1, 0, 1, 2], enforceConst: true}],
     'no-multi-spaces': 1,
