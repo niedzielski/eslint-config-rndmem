@@ -36,7 +36,7 @@ module.exports = {
     // todo: use eslint-plugin-jsdoc instead of valid-jsdoc.
     // https://github.com/gajus/eslint-plugin-jsdoc/issues/14
     'valid-jsdoc': [1, {requireReturn: true, requireParamDescription: false,
-       requireReturnDescription: false}],
+      requireReturnDescription: false}],
 
     // best practices
     'accessor-pairs': 1,
@@ -77,7 +77,7 @@ module.exports = {
     'no-undef-init': 1,
     'no-undef': [2, {typeof: true}],
     'no-unused-vars': [1, {args: 'all', caughtErrors: 'all',
-      argsIgnorePattern: '^_'}],
+      argsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_'}],
     'no-use-before-define': [2, 'nofunc'],
 
     // node.js and commonjs
@@ -98,7 +98,7 @@ module.exports = {
     'comma-style': 1,
     'computed-property-spacing': 1,
     'consistent-this': 1,
-    'eol-last': 0,
+    'eol-last': [1, 'never'],
     'func-call-spacing': 1,
     'func-names': [1, 'never'],
     'func-style': [1, 'declaration'],
