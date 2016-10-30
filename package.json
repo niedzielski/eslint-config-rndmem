@@ -21,7 +21,7 @@
     "rndlint": "bin/rndlint"
   },
   "engines": {
-    "node": "6.5.0"
+    "node": "7.0.0"
   },
   "peerDependencies": {
     "eslint": "3.9.0",
