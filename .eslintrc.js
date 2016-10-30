@@ -199,21 +199,26 @@ module.exports = {
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-type': 1,
 
-    // https://www.npmjs.com/package/eslint-plugin-node#rules
+    // https://www.npmjs.com/package/eslint-plugin-node#bulb-rules
+    'node/exports-style': [2, 'module.exports'],
     'node/no-deprecated-api': 2,
     'node/no-missing-import': 2,
     'node/no-missing-require': 2,
+    'node/no-unpublished-bin': 2,
     'node/no-unpublished-import': 2,
     'node/no-unpublished-require': 2,
     'node/no-unsupported-features': [2, {version: 6}],
     'node/process-exit-as-throw': 2,
     'node/shebang': 2,
 
-    // https://www.npmjs.com/package/eslint-plugin-promise#rule
+    // https://www.npmjs.com/package/eslint-plugin-promise#rules
     'promise/catch-or-return': 2,
+    'promise/no-return-wrap': 2,
+    'promise/param-names': 1,
     'promise/always-return': 2,
-    'promise/param-names': 2,
-    'promise/no-native': 2
+    'promise/no-native': 2,
+    'promise/prefer-await-to-then': 2,
+    'promise/prefer-await-to-callbacks': 2
   },
   settings: {
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
