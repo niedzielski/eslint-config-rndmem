@@ -23,7 +23,7 @@
   "engines": {
     "node": "7.0.0"
   },
-  "peerDependencies": {
+  "peerDevDependencies": {
     "eslint": "3.9.1",
     "eslint-plugin-jsdoc": "2.3.1",
     "eslint-plugin-json": "1.2.0",
