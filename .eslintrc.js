@@ -147,7 +147,7 @@ module.exports = {
     'object-curly-spacing': 1,
     'object-property-newline': 0,
     'one-var-declaration-per-line': 0,
-    'one-var': [1, {var: 'always', let: 'always', const: 'always'}],
+    'one-var': [1, {var: 'always'}],
     'operator-assignment': 1,
     'operator-linebreak': [1, 'before'],
     'padded-blocks': [1, 'never'],
