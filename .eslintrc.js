@@ -207,7 +207,7 @@ module.exports = {
     'node/no-unpublished-bin': 2,
     'node/no-unpublished-import': 2,
     'node/no-unpublished-require': 2,
-    'node/no-unsupported-features': 2,
+    'node/no-unsupported-features': [2, {version: 7, ignores: ['modules']}],
     'node/process-exit-as-throw': 2,
     'node/shebang': 2,
 
