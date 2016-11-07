@@ -1,6 +1,13 @@
 # eslint-config-rndmem
 The rndmem ESLint configuration.
 
+## Changelog
+
+### 2.0.0
+- Require @param, not @arg, JSDoc method parameter annotations for VS Code's
+  IntelliSense
+- Fix peerDependencies
+
 ## License (GPLv3)
 © 2016 Stephen Niedzielski
 
