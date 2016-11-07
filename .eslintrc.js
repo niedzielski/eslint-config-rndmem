@@ -33,7 +33,7 @@ module.exports = {
       skipRegExps: false,
       skipTemplates: false
     }],
-    // todo: use eslint-plugin-jsdoc instead of valid-jsdoc.
+    // todo: use eslint-plugin-jsdoc instead of valid-jsdoc
     // https://github.com/gajus/eslint-plugin-jsdoc/issues/14
     'valid-jsdoc': [1, {requireReturn: true, requireParamDescription: false,
       requireReturnDescription: false}],
@@ -223,10 +223,14 @@ module.exports = {
   settings: {
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
     jsdoc: {
-      // pick one synonym for each ambiguity listed.
-      // http://usejsdoc.org/#block-tags
+      // one synonym for each ambiguity listed: http://usejsdoc.org/#block-tags
       tagNamePreference: {
         abstract: 'virtual',
+
+        // arg is preferrable but vscode only understands param
+        arg: 'param',
+        argument: 'param',
+
         augments: 'extends',
         constructor: 'class',
         constant: 'const',
@@ -239,8 +243,8 @@ module.exports = {
         function: 'func',
         method: 'func',
         member: 'var',
-        param: 'arg',
-        argument: 'arg',
+        // param: 'arg',
+        // argument: 'arg',
         property: 'prop',
         returns: 'return',
         exception: 'throws',
