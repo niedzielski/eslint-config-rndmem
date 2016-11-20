@@ -207,7 +207,7 @@ module.exports = {
     'node/no-unpublished-bin': 2,
     'node/no-unpublished-import': 2,
     'node/no-unpublished-require': 2,
-    'node/no-unsupported-features': [2, {version: 7, ignores: ['modules']}],
+    'node/no-unsupported-features': [2, {ignores: ['modules']}],
     'node/process-exit-as-throw': 2,
     'node/shebang': 2,
 
@@ -217,6 +217,10 @@ module.exports = {
     'promise/param-names': 1,
     'promise/always-return': 2,
     'promise/no-native': 2,
+    'promise/no-nesting': 2,
+    'promise/no-promise-in-callback': 2,
+    'promise/no-callback-in-promise': 2,
+    'promise/avoid-new': 2,
     'promise/prefer-await-to-then': 2,
     'promise/prefer-await-to-callbacks': 2
   },
