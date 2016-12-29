@@ -54,7 +54,9 @@ module.exports = {
     'no-empty-function': 1,
     'no-floating-decimal': 0,
     'no-lone-blocks': 1,
-    'no-magic-numbers': [1, {ignore: [-1, 0, 1, 2], enforceConst: true}],
+    'no-magic-numbers': [1, {
+      ignore: [-100, -10, -2, -1, -.5, 0, .5, 1, 2, 10, 100],
+      enforceConst: true}],
     'no-multi-spaces': 1,
     'no-new-wrappers': 1,
     'no-param-reassign': 1,
