@@ -3,10 +3,33 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
-### 2.0.0
+### v3.0.1
+- Update: add some common base 2 and base 10 magic numbers to the ignore list
+
+### v3.0.0
+- Breaking: update dependencies
+
+### v2.0.0
 - Require @param, not @arg, JSDoc method parameter annotations for VS Code's
   IntelliSense
 - Fix peerDependencies
+
+### v1.0.4
+- Update: workaround JSPM peerDependencies
+
+### v1.0.3
+- Update: allow imports and exports
+
+### v1.0.2
+- Update: use NPM engine property to detect unsupported JavaScript features
+
+### v1.0.1
+- Update: limit [one-var](http://eslint.org/docs/rules/one-var) to only vars,
+  not let and const
+- Update: upgrade to ESLint v3.9.1 and eslint-plugin-node v3.0.3
+
+### v1.0.0
+- New: initial release
 
 ## License (GPLv3)
 © 2016 Stephen Niedzielski
