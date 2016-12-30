@@ -3,11 +3,17 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
+### v4.0.0
+- Breaking: upgrade dependencies and three new rules:
+  [capitalized-comments](http://eslint.org/docs/rules/capitalized-comments),
+  [no-await-in-loop](http://eslint.org/docs/rules/no-await-in-loop),
+  [require-await](http://eslint.org/docs/rules/require-await)
+
 ### v3.0.1
 - Update: add some common base 2 and base 10 magic numbers to the ignore list
 
 ### v3.0.0
-- Breaking: update dependencies
+- Breaking: upgrade dependencies
 
 ### v2.0.0
 - Require @param, not @arg, JSDoc method parameter annotations for VS Code's
