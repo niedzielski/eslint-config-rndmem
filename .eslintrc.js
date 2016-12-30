@@ -40,7 +40,7 @@ module.exports = {
 
     // best practices
     'accessor-pairs': 1,
-    'class-methods-use-this': 1,
+    'class-methods-use-this': 0,
     complexity: [1, 8], // eslint-disable-line no-magic-numbers
     curly: [2, 'multi-line'],
     'default-case': 1,
@@ -130,7 +130,7 @@ module.exports = {
     'newline-per-chained-call': 1,
     'no-array-constructor': 1,
     'no-bitwise': 1,
-    'no-continue': 1,
+    'no-continue': 0,
     'no-inline-comments': 0,
     'no-lonely-if': 1,
     'no-mixed-operators': 0,

@@ -3,6 +3,11 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
+### v4.0.1
+- Update: disable
+  [class-methods-use-this](http://eslint.org/docs/rules/class-methods-use-this)
+  and [no-continue](http://eslint.org/docs/rules/no-continue)
+
 ### v4.0.0
 - Breaking: upgrade dependencies and three new rules:
   [capitalized-comments](http://eslint.org/docs/rules/capitalized-comments),
