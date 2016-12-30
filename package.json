@@ -39,5 +39,6 @@
     "npm-check-updates": "2.8.6",
     "pre-commit": "1.1.3"
   },
+  "precommit.silent": true,
   "license": "GPL-3.0"
 }
