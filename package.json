@@ -10,8 +10,8 @@
   "repository": "github:rndmem/eslint-config-rndmem",
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
   "scripts": {
-    "test": "npm run -s eslint",
-    "eslint": "bin/rndlint .",
+    "test": "npm run -s lint",
+    "lint": "bin/rndlint .",
     "update": "ncu -atu",
     "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s test",
     "postversion": "git push origin master --follow-tags && npm publish",
