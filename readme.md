@@ -3,6 +3,10 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
+### v5.0.0
+- Breaking: add rules to forbid duplicate, limitless, and unused disable ESLint
+  directive comments
+
 ### v4.0.1
 - Update: disable
   [class-methods-use-this](http://eslint.org/docs/rules/class-methods-use-this)

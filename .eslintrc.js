@@ -14,7 +14,7 @@ module.exports = {
     es6: true,
     node: true
   },
-  plugins: ['jsdoc', 'json', 'node', 'promise'],
+  plugins: ['eslint-comments', 'jsdoc', 'json', 'node', 'promise'],
   extends: 'eslint:all',
   rules: {
     // http://eslint.org/docs/rules/
@@ -192,6 +192,11 @@ module.exports = {
     'sort-imports': 1,
     'template-curly-spacing': 1,
     'yield-star-spacing': 1,
+
+    // https://www.npmjs.com/package/eslint-plugin-eslint-comments#rules
+    'eslint-comments/no-duplicate-disable': 1,
+    'eslint-comments/no-unlimited-disable': 1,
+    'eslint-comments/no-unused-disable': 1,
 
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-rules
     'jsdoc/check-param-names': 1,
