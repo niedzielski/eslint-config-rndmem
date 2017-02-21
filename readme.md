@@ -3,6 +3,10 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
+### v6.0.0
+- Breaking: [func-style](http://eslint.org/docs/rules/func-style)
+  require the use of function expressions instead of declarations
+
 ### v5.0.0
 - Breaking: add rules to forbid duplicate, limitless, and unused disable ESLint
   directive comments
