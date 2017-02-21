@@ -107,7 +107,7 @@ module.exports = {
     'func-style': 1,
     'id-length': [1, {min: 1, max: 40}],
     'id-match': 1,
-    indent: [1, 2],
+    indent: [1, 2, {SwitchCase: 1}],
     'jsx-quotes': [1, 'prefer-single'],
     'key-spacing': 1,
     'keyword-spacing': 1,
