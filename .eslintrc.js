@@ -66,13 +66,13 @@ module.exports = {
     'no-unused-labels': 1,
     'no-useless-concat': 1,
     'no-warning-comments': 0,
-    radix: [1, 'always'],
+    radix: [1, 'as-needed'],
     'vars-on-top': 1,
     'wrap-iife': 0,
     yoda: 1,
 
     // strict mode
-    strict: [2, 'never'],
+    strict: [1, 'never'],
 
     // variables
     'init-declarations': 0,
@@ -104,7 +104,7 @@ module.exports = {
     'eol-last': [1, 'never'],
     'func-call-spacing': 1,
     'func-names': [1, 'never'],
-    'func-style': 1,
+    'func-style': 2,
     'id-length': [1, {min: 1, max: 40}],
     'id-match': 1,
     indent: [1, 2, {SwitchCase: 1}],

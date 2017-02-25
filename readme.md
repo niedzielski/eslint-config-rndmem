@@ -3,7 +3,13 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
-### v7.0.1
+### v8.0.0
+- Breaking: forbid redundant [radix](http://eslint.org/docs/rules/radix)
+  parameter in parseInt()
+- Update: promote [func-style](http://eslint.org/docs/rules/func-style)
+  violations to error
+- Update: demote [strict](http://eslint.org/docs/rules/strict) mode violations
+  to warning
 - Chore: use NPM package main entry instead of dummy index.js
 
 ### v7.0.0
