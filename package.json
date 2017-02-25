@@ -13,7 +13,7 @@
   "scripts": {
     "test": "npm run -s lint",
     "lint": "bin/rndlint .",
-    "update": "ncu -atu",
+    "upgrade": "ncu -atu",
     "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s t",
     "postversion": "git push origin master --follow-tags && npm publish",
     "clean": "rm -rf node_modules .eslintcache"
