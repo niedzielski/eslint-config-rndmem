@@ -3,6 +3,9 @@ The rndmem ESLint configuration.
 
 ## Changelog
 
+### v7.0.1
+- Chore: use NPM package main entry instead of dummy index.js
+
 ### v7.0.0
 - Breaking: [indent](http://eslint.org/docs/rules/indent)
   require case clauses to be indented WRT switch statements

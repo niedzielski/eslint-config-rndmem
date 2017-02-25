@@ -9,6 +9,7 @@
   "homepage": "https://github.com/rndmem/eslint-config-rndmem",
   "repository": "github:rndmem/eslint-config-rndmem",
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "npm run -s lint",
     "lint": "bin/rndlint .",
