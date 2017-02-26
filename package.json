@@ -4,7 +4,14 @@
   "description": "The rndmem ESLint configuration.",
   "keywords": [
     "eslint",
-    "config"
+    "eslint config",
+    "eslint plugin",
+    "coding style",
+    "static code analysis",
+    "javascript",
+    "ecmascript",
+    "node",
+    "node.js"
   ],
   "homepage": "https://github.com/rndmem/eslint-config-rndmem",
   "repository": "github:rndmem/eslint-config-rndmem",
