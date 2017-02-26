@@ -4,8 +4,19 @@ The rndmem ESLint ECMAScript 2015 configuration.
 ## Changelog
 
 ### v8.0.0
+- Breaking: upgrade dependencies
+  - New [no-multi-assign](http://eslint.org/docs/rules/no-multi-assign): forbid
+    multiple assignments within a statements
+  - New [prefer-promise-reject-errors](http://eslint.org/docs/rules/prefer-promise-reject-errors):
+    require Error type when rejecting a Promise
+  - New [template-tag-spacing](http://eslint.org/docs/rules/template-tag-spacing):
+    forbid spacing in tagged template literals
+  - Update [object-shorthand](http://eslint.org/docs/rules/object-shorthand):
+    require methods over arrow function properties
+  - Update [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define):
+    require outer scoped variables to be defined as read top to bottom before use
 - Breaking: forbid redundant [radix](http://eslint.org/docs/rules/radix)
-  parameter in parseInt()
+  parameter in parseInt() since this library is ES6+
 - Update: promote [func-style](http://eslint.org/docs/rules/func-style)
   violations to error
 - Update: demote [strict](http://eslint.org/docs/rules/strict) mode violations

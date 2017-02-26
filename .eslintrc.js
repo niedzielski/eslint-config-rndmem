@@ -66,6 +66,7 @@ module.exports = {
     'no-unused-labels': 1,
     'no-useless-concat': 1,
     'no-warning-comments': 0,
+    'prefer-promise-reject-errors': 1,
     radix: [1, 'as-needed'],
     'vars-on-top': 1,
     'wrap-iife': 0,
@@ -167,6 +168,7 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': 1,
     'spaced-comment': [1, 'always', {markers: ['/']}],
+    'template-tag-spacing': 1,
     'unicode-bom': 1,
     'wrap-regex': 0,
 
@@ -184,6 +186,7 @@ module.exports = {
     'object-shorthand': 1,
     'prefer-arrow-callback': 1,
     'prefer-const': 1,
+    'prefer-destructuring': 0,
     'prefer-reflect': 1,
     'prefer-rest-params': 1,
     'prefer-spread': 1,

@@ -22,24 +22,24 @@
     "rndlint": "bin/rndlint"
   },
   "engines": {
-    "node": "7.3.0"
+    "node": "7.6.0"
   },
   "peerDependencies": {
-    "eslint": "3.12.2",
+    "eslint": "3.16.1",
     "eslint-plugin-eslint-comments": "^1.0.0",
     "eslint-plugin-jsdoc": "^2.4.0",
     "eslint-plugin-json": "^1.2.0",
-    "eslint-plugin-node": "^3.0.5",
+    "eslint-plugin-node": "^4.1.0",
     "eslint-plugin-promise": "^3.4.0"
   },
   "devDependencies": {
-    "eslint": "3.12.2",
+    "eslint": "3.16.1",
     "eslint-plugin-eslint-comments": "1.0.0",
     "eslint-plugin-jsdoc": "2.4.0",
     "eslint-plugin-json": "1.2.0",
-    "eslint-plugin-node": "3.0.5",
-    "eslint-plugin-promise": "3.4.0",
-    "npm-check-updates": "2.8.9",
+    "eslint-plugin-node": "4.1.0",
+    "eslint-plugin-promise": "3.4.2",
+    "npm-check-updates": "2.10.3",
     "pre-commit": "1.2.2"
   },
   "precommit.silent": true,
