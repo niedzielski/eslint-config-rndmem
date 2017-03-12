@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-rndmem",
   "version": "8.0.0",
-  "description": "The rndmem ESLint configuration.",
+  "description": "The rndmem ESLint configuration",
   "keywords": [
     "eslint",
     "eslint config",
@@ -19,12 +19,12 @@
   "bugs": "https://github.com/rndmem/eslint-config-rndmem/issues",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "npm run -s lint",
-    "lint": "bin/rndlint .",
-    "upgrade": "ncu -atu",
-    "preversion": "[ -z \"$(git status --porcelain)\" ] && npm -s t",
-    "postversion": "git push origin master --follow-tags && npm publish",
-    "clean": "rm -rf node_modules .eslintcache"
+    "lint": "bin/rndlint",
+    "test": "npm run -s lint .",
+    "preversion": "[ -z \"$(git status -z)\" ]",
+    "version": "npm -s t",
+    "postversion": "git push --follow-tags origin HEAD && npm publish",
+    "upgrade": "ncu -atu"
   },
   "bin": {
     "rndlint": "bin/rndlint"
@@ -58,6 +58,5 @@
     "npm-check-updates": "2.10.3",
     "pre-commit": "1.2.2"
   },
-  "precommit.silent": true,
   "license": "GPL-3.0"
 }

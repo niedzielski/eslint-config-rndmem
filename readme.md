@@ -1,5 +1,5 @@
 # eslint-config-rndmem
-The rndmem ESLint ECMAScript 2015 configuration.
+The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
