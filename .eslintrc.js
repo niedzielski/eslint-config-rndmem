@@ -105,7 +105,6 @@ module.exports = {
     'eol-last': [1, 'never'],
     'func-call-spacing': 1,
     'func-names': [1, 'never'],
-    'func-style': 2,
     'id-length': [1, {min: 1, max: 40}],
     'id-match': 1,
     indent: [1, 2, {SwitchCase: 1}],

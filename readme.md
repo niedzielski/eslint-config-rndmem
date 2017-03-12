@@ -6,6 +6,13 @@ The rndmem ESLint ECMAScript 2015 configuration.
 ### v9.0.0
 - Breaking: add html, import, mocha, and objects plugins
 - Breaking: remove node env
+- Breaking: upgrade dependencies
+  - New [no-compare-neg-zero](http://eslint.org/docs/rules/no-compare-neg-zero):
+    forbid comparisons to -0
+  - New [nonblock-statement-body-position]
+    (http://eslint.org/docs/rules/nonblock-statement-body-position): require
+    single line if, else, while, do-while, and for statements when not using a
+    block statement
 
 ### v8.0.0
 - Breaking: upgrade dependencies
