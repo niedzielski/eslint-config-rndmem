@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration.
 
 ## Changelog
 
+### v9.0.0
+- Breaking: add html, import, mocha, and objects plugins
+- Breaking: remove node env
+
 ### v8.0.0
 - Breaking: upgrade dependencies
   - New [no-multi-assign](http://eslint.org/docs/rules/no-multi-assign): forbid

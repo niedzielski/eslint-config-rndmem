@@ -11,10 +11,10 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
-    es6: true,
-    node: true
+    es6: true
   },
-  plugins: ['eslint-comments', 'jsdoc', 'json', 'node', 'promise'],
+  plugins: ['eslint-comments', 'html', 'import', 'jsdoc', 'json', 'mocha',
+    'node', 'objects', 'promise'],
   extends: 'eslint:all',
   rules: {
     // http://eslint.org/docs/rules/
@@ -209,6 +209,46 @@ module.exports = {
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-type': 1,
 
+    // https://www.npmjs.com/package/eslint-plugin-import#rules
+    // static analysis
+    'import/no-unresolved': [2, {amd: true, commonjs: true}],
+    'import/named': 2,
+    'import/default': 2,
+    'import/namespace': 2,
+    'import/no-absolute-path': 1,
+    'import/no-webpack-loader-syntax': 1,
+
+    // helpful warnings
+    'import/export': 2,
+    'import/no-named-as-default': 2,
+    'import/no-named-as-default-member': 2,
+    'import/no-extraneous-dependencies': 1,
+    'import/no-mutable-exports': 1,
+
+    // style guide
+    'import/first': 2,
+    'import/no-duplicates': 2,
+    'import/extensions': 1,
+    'import/order': [1, {'newlines-between': 'always'}],
+    'import/newline-after-import': 1,
+    'import/prefer-default-export': 1,
+    'import/max-dependencies': 1,
+    'import/no-unassigned-import': 2,
+    'import/no-named-default': 2,
+
+    // https://www.npmjs.com/package/eslint-plugin-mocha#rules-documentation
+    'mocha/max-top-level-suites': 1,
+    'mocha/no-exclusive-tests': 1,
+    'mocha/no-global-tests': 1,
+    'mocha/no-identical-title': 2,
+    'mocha/no-mocha-arrows': 2,
+    'mocha/no-nested-tests': 2,
+    'mocha/no-return-and-callback': 2,
+    'mocha/no-sibling-hooks': 2,
+    'mocha/no-skipped-tests': 1,
+    'mocha/no-synchronous-tests': 2,
+    'mocha/no-top-level-hooks': 2,
+
     // https://www.npmjs.com/package/eslint-plugin-node#bulb-rules
     'node/exports-style': [2, 'module.exports'],
     'node/no-deprecated-api': 2,
@@ -220,6 +260,9 @@ module.exports = {
     'node/no-unsupported-features': [2, {ignores: ['modules']}],
     'node/process-exit-as-throw': 2,
     'node/shebang': 2,
+
+    // https://www.npmjs.com/package/eslint-plugin-objects#list-of-supported-rules
+    'objects/no-object-property-split': 1,
 
     // https://www.npmjs.com/package/eslint-plugin-promise#rules
     'promise/catch-or-return': 2,
@@ -235,6 +278,10 @@ module.exports = {
     'promise/prefer-await-to-callbacks': 2
   },
   settings: {
+    // https://www.npmjs.com/package/eslint-plugin-html#settings
+    'html/indent': '+2',
+    'html/report-bad-indent': 1,
+
     // https://www.npmjs.com/package/eslint-plugin-jsdoc#eslint-plugin-jsdoc-settings-alias-preference
     jsdoc: {
       // one synonym for each ambiguity listed: http://usejsdoc.org/#block-tags
@@ -265,6 +312,9 @@ module.exports = {
         linkcode: 'link',
         linkplain: 'link'
       }
-    }
+    },
+
+    // https://www.npmjs.com/package/eslint-plugin-import#settings
+    'import/external-module-folders': ['jspm_modules']
   }
 }
