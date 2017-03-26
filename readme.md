@@ -3,6 +3,9 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v9.0.1
+- Chore: upgrade dependencies
+
 ### v9.0.0
 - Breaking: add html, import, mocha, and objects plugins
 - Breaking: remove node env
