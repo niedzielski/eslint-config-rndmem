@@ -3,6 +3,9 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v9.0.2
+- Chore: upgrade to rndmem-npm-skeleton v0.2.5 template
+
 ### v9.0.1
 - Chore: upgrade dependencies
 

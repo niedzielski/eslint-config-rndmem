@@ -22,15 +22,15 @@
     "lint": "bin/rndlint",
     "test": "npm run -s lint .",
     "preversion": "[ -z \"$(git status -z)\" ]",
-    "version": "npm -s t",
     "postversion": "git push --follow-tags origin HEAD && npm publish",
-    "upgrade": "ncu -atu"
+    "prepublish": "npm -s t",
+    "upgrade": "ncu -au"
   },
   "bin": {
     "rndlint": "bin/rndlint"
   },
   "engines": {
-    "node": "7.6.0"
+    "node": "7.7.4"
   },
   "peerDependencies": {
     "eslint": "3.18.0",
