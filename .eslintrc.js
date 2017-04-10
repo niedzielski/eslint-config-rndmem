@@ -94,7 +94,7 @@ module.exports = {
     // stylistic issues
     'array-bracket-spacing': 1,
     'block-spacing': 1,
-    'brace-style': 1,
+    'brace-style': [1, '1tbs', {allowSingleLine: true}],
     camelcase: 1,
     'capitalized-comments': [1, 'never'],
     'comma-dangle': [1, 'never'],

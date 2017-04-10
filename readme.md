@@ -6,6 +6,8 @@ The rndmem ESLint ECMAScript 2015 configuration
 ### v9.0.3
 - Update: [no-underscore-dangle](http://eslint.org/docs/rules/no-underscore-dangle):
   permit pre and postfix underscores
+- Update: [brace-style](http://eslint.org/docs/rules/brace-style): permit
+  opening and closing braces to be on the same line
 - Update: [mocha/no-synchronous-test](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-synchronous-tests.md):
   permit synchronous Mocha tests
 
