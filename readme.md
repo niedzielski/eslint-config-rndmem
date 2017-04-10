@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v9.0.3
+- Update: [mocha/no-synchronous-test](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-synchronous-tests.md):
+  permit synchronous Mocha tests
+
 ### v9.0.2
 - Chore: upgrade to rndmem-npm-skeleton v0.2.5 template
 

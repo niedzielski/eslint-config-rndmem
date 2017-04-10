@@ -245,7 +245,6 @@ module.exports = {
     'mocha/no-return-and-callback': 2,
     'mocha/no-sibling-hooks': 2,
     'mocha/no-skipped-tests': 1,
-    'mocha/no-synchronous-tests': 2,
     'mocha/no-top-level-hooks': 2,
 
     // https://www.npmjs.com/package/eslint-plugin-node#bulb-rules
