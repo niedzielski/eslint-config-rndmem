@@ -240,7 +240,6 @@ module.exports = {
     'mocha/no-exclusive-tests': 1,
     'mocha/no-global-tests': 1,
     'mocha/no-identical-title': 2,
-    'mocha/no-mocha-arrows': 2,
     'mocha/no-nested-tests': 2,
     'mocha/no-return-and-callback': 2,
     'mocha/no-sibling-hooks': 2,
