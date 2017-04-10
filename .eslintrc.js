@@ -191,7 +191,8 @@ module.exports = {
     'prefer-spread': 1,
     'prefer-template': 1,
     'rest-spread-spacing': 1,
-    'sort-imports': 1,
+    // todo: reenable when https://github.com/benmosher/eslint-plugin-import/issues/389 is fixed
+    'sort-imports': 0,
     'template-curly-spacing': 1,
     'yield-star-spacing': 1,
 

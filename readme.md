@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v9.0.7
+- Fix: [sort-imports](http://eslint.org/docs/rules/sort-imports): temporarily
+  disable sorted imports requirement
+
 ### v9.0.6
 - Update: [max-lines](http://eslint.org/docs/rules/max-lines): increase max
   lines to 250
