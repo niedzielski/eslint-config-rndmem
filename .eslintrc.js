@@ -143,7 +143,7 @@ module.exports = {
     'no-tabs': 1,
     'no-ternary': 0,
     'no-trailing-spaces': 1,
-    'no-underscore-dangle': [1, {allowAfterThis: true, allowAfterSuper: false}],
+    'no-underscore-dangle': 0,
     'no-unneeded-ternary': 1,
     'no-whitespace-before-property': 1,
     'object-curly-newline': 0,
