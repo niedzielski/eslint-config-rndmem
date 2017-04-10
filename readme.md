@@ -3,7 +3,7 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
-### v9.0.7
+### v9.1.0
 - Fix: [sort-imports](http://eslint.org/docs/rules/sort-imports): temporarily
   disable sorted imports requirement
 
