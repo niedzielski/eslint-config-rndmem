@@ -117,7 +117,7 @@ module.exports = {
     'lines-around-directive': 1,
     'max-depth': 1,
     'max-len': [1, {tabWidth: 2, ignoreUrls: true, ignorePattern: '^/// .+'}],
-    'max-lines': [1, {max: 150, skipBlankLines: false, skipComments: false}],
+    'max-lines': [1, {max: 250, skipBlankLines: false, skipComments: false}],
     'max-nested-callbacks': [1, {max: 4}],
     'max-params': [1, 4], // eslint-disable-line no-magic-numbers
     'max-statements-per-line': 1,

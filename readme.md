@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v9.0.6
+- Update: [max-lines](http://eslint.org/docs/rules/max-lines): increase max
+  lines to 250
+
 ### v9.0.5
 - Update: [no-mocha-arrows](https://github.com/lo1tuma/eslint-plugin-mocha/blob/master/docs/rules/no-mocha-arrows.md):
   permit Mocha arrow functions
