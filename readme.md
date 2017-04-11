@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v11.0.0
+- Breaking: [require-jsdoc](http://eslint.org/docs/rules/require-jsdoc): require
+  JSDocs on methods, classes, and arrow functions
+
 ### v10.0.0
 - Breaking: [require-jsdoc](http://eslint.org/docs/rules/require-jsdoc): require
   JSDocs and `@param` docs

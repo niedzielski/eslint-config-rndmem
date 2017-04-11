@@ -156,7 +156,12 @@ module.exports = {
     'padded-blocks': [1, 'never'],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', {avoidEscape: true}],
-    'require-jsdoc': 1,
+    'require-jsdoc': [1, {require: {
+      FunctionDeclaration: true,
+      MethodDefinition: true,
+      ClassDeclaration: true,
+      ArrowFunctionExpression: true
+    }}],
     'semi-spacing': 1,
     semi: [1, 'never'],
     'sort-keys': 0,
