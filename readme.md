@@ -3,6 +3,10 @@ The rndmem ESLint ECMAScript 2015 configuration
 
 ## Changelog
 
+### v10.0.0
+- Breaking: [require-jsdoc](http://eslint.org/docs/rules/require-jsdoc): require
+  JSDocs and `@param` docs
+
 ### v9.1.0
 - Fix: [sort-imports](http://eslint.org/docs/rules/sort-imports): temporarily
   disable sorted imports requirement

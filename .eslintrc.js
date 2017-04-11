@@ -156,7 +156,7 @@ module.exports = {
     'padded-blocks': [1, 'never'],
     'quote-props': [1, 'as-needed'],
     quotes: [1, 'single', {avoidEscape: true}],
-    'require-jsdoc': 0,
+    'require-jsdoc': 1,
     'semi-spacing': 1,
     semi: [1, 'never'],
     'sort-keys': 0,
@@ -206,6 +206,7 @@ module.exports = {
     'jsdoc/check-tag-names': 1,
     'jsdoc/check-types': 1,
     'jsdoc/newline-after-description': [1, 'never'],
+    'jsdoc/require-param': 1,
     'jsdoc/require-param-type': 1,
     'jsdoc/require-returns-type': 1,
 
@@ -286,7 +287,8 @@ module.exports = {
       tagNamePreference: {
         abstract: 'virtual',
 
-        // arg is preferrable but vscode only understands param
+        // arg is preferrable but vscode only understands param and
+        // jsdoc/require-param doesn't permit aliases
         arg: 'param',
         argument: 'param',
 
